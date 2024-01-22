@@ -3,6 +3,12 @@ import {getCookie} from "https://jscroot.github.io/cookie/croot.js";
 import {getValue} from "https://jscroot.github.io/element/croot.js";
 
 
+let token = getCookie("login")
+if (token == "") {
+    window.location.href("https://euis.ulbi.ac.id/")
+}
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("formrevisi");
   
@@ -23,7 +29,10 @@ document.addEventListener("DOMContentLoaded", function() {
   
       console.log(data);
   
-      postWithToken("https://kimteungbim.ulbi.ac.id/public/revisi", "AUTH", getCookie("login"),  data, responsesdata());
+      postWithToken("https://kimteungbim.ulbi.ac.id/public/revisi/", "AUTH", token,  data, (results) => {
+        // Handle results for the second action
+        console.log(results);
+      });
     });
 })  
 
