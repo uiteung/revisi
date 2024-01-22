@@ -34,13 +34,13 @@ document.addEventListener("DOMContentLoaded", function() {
         "tahun_aka" : InputTahun,
         "tipe" : "i1",
         "assessment_inputs" : [
-            {"assess_name" : "content", "assess_weight": 15, "value" : Input1},
-            {"assess_name" : "Delivery Written article and oral presentation", "assess_weight": 15, "value" : Input2},
-            {"assess_name" : "Penjelasan dan Pembahasan Terkait topik penelitian", "assess_weight": 15, "value" : Input3},
-            {"assess_name" : "Penyusunan Dokumen Penelitian", "assess_weight": 15, "value" : Input4},
-            {"assess_name" : "Hasil Penelitian", "assess_weight": 20, "value" : Input5},
-            {"assess_name" : "Kesimpulan Penelitian", "assess_weight": 10, "value" : Input6},
-            {"assess_name" : "Daftar Pustaka", "assess_weight": 10, "value" : Input7},
+            {"assess_name" : "content", "assess_weight": 15, "value" : parseInt(Input1)},
+            {"assess_name" : "Delivery Written article and oral presentation", "assess_weight": 15, "value" : parseInt(Input2)},
+            {"assess_name" : "Penjelasan dan Pembahasan Terkait topik penelitian", "assess_weight": 15, "value" : parseInt(Input3)},
+            {"assess_name" : "Penyusunan Dokumen Penelitian", "assess_weight": 15, "value" : parseInt(Input4)},
+            {"assess_name" : "Hasil Penelitian", "assess_weight": 20, "value" : parseInt(Input5)},
+            {"assess_name" : "Kesimpulan Penelitian", "assess_weight": 10, "value" : parseInt(Input6)},
+            {"assess_name" : "Daftar Pustaka", "assess_weight": 10, "value" : parseInt(Input7)},
         ]
     };
   

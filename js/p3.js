@@ -33,10 +33,10 @@ document.addEventListener("DOMContentLoaded", function() {
         "tahun_aka" : InputTahun,
         "tipe" : InputTipe,
         "assessment_inputs" : [
-            {"assess_name" : "Semua endpoint berfungsi termasuk otorisasi dan autentikasi token", "assess_weight": 25, "value" : Input1},
-            {"assess_name" : "Package dibuat sendiri dan semua digunakan", "assess_weight": 25, "value" : Input2},
-            {"assess_name" : "Semua endpoint di GCF memakai package yang dibuat dan lokasi server di jakarta", "assess_weight": 25, "value" : Input3},
-            {"assess_name" : "Terintegrasi dengan wa.my.id", "assess_weight": 25, "value" : Input4},
+            {"assess_name" : "Semua endpoint berfungsi termasuk otorisasi dan autentikasi token", "assess_weight": 25, "value" : parseInt(Input1)},
+            {"assess_name" : "Package dibuat sendiri dan semua digunakan", "assess_weight": 25, "value" : parseInt(Input2)},
+            {"assess_name" : "Semua endpoint di GCF memakai package yang dibuat dan lokasi server di jakarta", "assess_weight": 25, "value" : parseInt(Input3)},
+            {"assess_name" : "Terintegrasi dengan wa.my.id", "assess_weight": 25, "value" : parseInt(Input4)},
         ]
     };
   
@@ -73,10 +73,10 @@ document.addEventListener("DOMContentLoaded", function() {
         "tahun_aka" : InputTahun,
         "tipe" : InputTipe,
         "assessment_inputs" : [
-            {"assess_name" : "semua js di rilis versi di jsdelivr dari semua js buatan sendiri yang dipakai frontend", "assess_weight": 25, "value" : Input1},
-            {"assess_name" : "pemanggilan jsdelivr pada html yang sudah pasti pakai type module", "assess_weight": 25, "value" : Input2},
-            {"assess_name" : "kelengkapan css, favicon, 404.html, modal, transisi, loading, responsive dan hasil analisis dari gtmetrix.com", "assess_weight": 25, "value" : Input3},
-            {"assess_name" : "memakai custom domain pada github pages nya.", "assess_weight": 25, "value" : Input4},
+            {"assess_name" : "semua js di rilis versi di jsdelivr dari semua js buatan sendiri yang dipakai frontend", "assess_weight": 25, "value" : parseInt(Input1)},
+            {"assess_name" : "pemanggilan jsdelivr pada html yang sudah pasti pakai type module", "assess_weight": 25, "value" : parseInt(Input2)},
+            {"assess_name" : "kelengkapan css, favicon, 404.html, modal, transisi, loading, responsive dan hasil analisis dari gtmetrix.com", "assess_weight": 25, "value" : parseInt(Input3)},
+            {"assess_name" : "memakai custom domain pada github pages nya.", "assess_weight": 25, "value" : parseInt(Input4)},
         ]
     };
   
