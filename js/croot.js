@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       postWithToken(url, "LOGIN", token,  data, (results) => {
         // Handle results for the second action
-        console.log(results);
+        alert(results.status)
       });
     });
 })  
