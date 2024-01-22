@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       let data = {
         "prodi" : 14,
-        "nim" : InputNPM,
+        "nim" : parseInt(InputNPM),
         "tahun_aka" : InputTahun,
         "tipe" : InputTipe,
         "assessment_inputs" : [
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       let data = {
         "prodi" : 14,
-        "nim" : InputNPM,
+        "nim" : parseInt(InputNPM),
         "tahun_aka" : InputTahun,
         "tipe" : InputTipe,
         "assessment_inputs" : [

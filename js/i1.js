@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       let data = {
         "prodi" : 14,
-        "nim" : InputNPM,
+        "nim" : parseInt(InputNPM),
         "tahun_aka" : InputTahun,
         "tipe" : "i1",
         "assessment_inputs" : [
