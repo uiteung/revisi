@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const Input6 = getValue('input6fe');
       const Input7 = getValue('input7fe');
 
-      let url = "https://kimteungbim.ulbi.ac.id//nilai/"
+      let url = "https://kimteungbim.ulbi.ac.id/nilai/"
 
   
       let data = {
