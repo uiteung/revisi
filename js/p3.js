@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "prodi" : 14,
         "nim" : parseInt(InputNPM),
         "tahun_aka" : InputTahun,
-        "tipe" : InputTipe,
+        "tipe_bimbingan" : InputTipe,
         "assessment_inputs" : [
             {"assess_name" : "Semua endpoint berfungsi termasuk otorisasi dan autentikasi token", "assess_weight": 25, "value" : parseInt(Input1)},
             {"assess_name" : "Package dibuat sendiri dan semua digunakan", "assess_weight": 25, "value" : parseInt(Input2)},
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "prodi" : 14,
         "nim" : parseInt(InputNPM),
         "tahun_aka" : InputTahun,
-        "tipe" : InputTipe,
+        "tipe_bimbingan" : InputTipe,
         "assessment_inputs" : [
             {"assess_name" : "semua js di rilis versi di jsdelivr dari semua js buatan sendiri yang dipakai frontend", "assess_weight": 25, "value" : parseInt(Input1)},
             {"assess_name" : "pemanggilan jsdelivr pada html yang sudah pasti pakai type module", "assess_weight": 25, "value" : parseInt(Input2)},

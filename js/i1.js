@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "prodi" : 14,
         "nim" : parseInt(InputNPM),
         "tahun_aka" : InputTahun,
-        "tipe" : "i1",
+        "tipe_bimbingan" : "i1",
         "assessment_inputs" : [
             {"assess_name" : "content", "assess_weight": 15, "value" : parseInt(Input1)},
             {"assess_name" : "Delivery Written article and oral presentation", "assess_weight": 15, "value" : parseInt(Input2)},
