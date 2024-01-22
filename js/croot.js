@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       console.log(data);
   
-      postWithToken("https://kimteungbim.ulbi.ac.id/public/revisi/", "AUTH", token,  data, (results) => {
+      postWithToken("https://kimteungbim.ulbi.ac.id/public/revisi/", "LOGIN", token,  data, (results) => {
         // Handle results for the second action
         console.log(results);
       });
