@@ -20,6 +20,13 @@ document.addEventListener("DOMContentLoaded", function() {
       const InputRevisi = getValue('inputrevisi');
       const InputTipe = getValue('tipebimbingan')
 
+      let url = ""
+      if (InputTipe != "p3"){
+        url = "https://kimteungbim.ulbi.ac.id/revisi/"
+      } else {
+        url = "https://kimteungbim.ulbi.ac.id/sidang/p3/revisi/"
+      }
+
       let split = InputRevisi.split(",")
   
       let data = {
@@ -31,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       console.log(data);
   
-      postWithToken("https://kimteungbim.ulbi.ac.id/revisi/", "LOGIN", token,  data, (results) => {
+      postWithToken(url, "LOGIN", token,  data, (results) => {
         // Handle results for the second action
         console.log(results);
       });
