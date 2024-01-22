@@ -18,12 +18,14 @@ document.addEventListener("DOMContentLoaded", function() {
       const InputNPM = getValue('inputNilaiNIM');
       const InputTahun = getValue('inputNilaiTahun');
       const InputRevisi = getValue('inputrevisi');
+      const InputTipe = getValue('tipebimbingan')
 
       let split = InputRevisi.split(",")
   
       let data = {
         "nim" : InputNPM,
         "tahun_aka" : InputTahun,
+        "tipe" : InputTipe,
         "revisi" : split
     };
   
